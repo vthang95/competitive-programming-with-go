@@ -46,6 +46,12 @@ func isValidCor(R int, C int, r0 int, c0 int) bool {
 }
 
 func main() {
-  fmt.Println(spiralMatrix(5, 6, 1, 4))
+  var R, C, r0, c0 int
+  fmt.Scan(&R)
+  fmt.Scan(&C)
+  fmt.Scan(&r0)
+  fmt.Scan(&c0)
+
+  fmt.Println(spiralMatrix(R, C, r0, c0))
 }
 ```
